@@ -54,7 +54,7 @@ def encrypt():
 if __name__ == '__main__':
     encrypt()
 ```
-From the script above, few infomation is given.
+From the script above, few pieces of information are given.
 1. The encrypt function will check if p and q are primes<br>
 2. `n` is equal to `p` to the power of `q`<br>
 3. `e` is equal to `1000000000000000003`<br>
@@ -65,7 +65,7 @@ Okay, now I can decrypt it back to plaintext.
 ### Part II: Decryption
 To decrypt the chipertext(`ct` or `c` in this challenge) back to plaintext(`pt` or `m` in this challenge),<br>
 I need to use `pt = pow(ct,d,n)` to encrypt. As I already got `ct` and `n`, so I need to get `d`.<br>
-To get `d`, there is a easy way though `Crypto` module in python:
+To get `d`, there is an easy way through `Crypto` module in python:
 ```python
 from Crypto.Util.number import inverse,long_to_bytes
 d = inverse(e, phi)
