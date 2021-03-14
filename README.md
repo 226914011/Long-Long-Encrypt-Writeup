@@ -83,7 +83,7 @@ Now I have all I need. Easy peasy lemon squeezy.<br>
 
 #### Math way: [Euler's product formula](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Euler%27s_product_formula)
 As n is p to the power of q instead of p*q, that means I have to get `p` and `q` first and use 
-[Euler's product formula](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Euler%27s_product_formula) to get '''φ(n)'''.<br>
+[Euler's product formula](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Euler%27s_product_formula) to get `φ(n)`.<br>
 I need to factorize n first, and get `p = 28375637489003756813`&`q = 1709`.<br>
 Then, we know `φ(n) = φ(p^q) = p^(q-1)*(p-1)`, so we can get φ(n) by script:
 ```python
