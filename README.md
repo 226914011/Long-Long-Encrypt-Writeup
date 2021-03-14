@@ -1,6 +1,7 @@
 # Long Long Encrypt
 An simple RSA encryption.<br>
 Writeup By [226914011(Nori_egg)](https://github.com/226914011).
+Team website: [Black Bauhinia](https://b6a.black)
 
 ## Description
 ![img](https://i.imgur.com/GRGZewq.png)<br>
