@@ -89,7 +89,7 @@ phi = p**(q-1) * (p-1)
 
 ### Part III: Wait few hours to get the flag
 Here:
-`
+```
 Every National Day, we remind ourselves that Singapore is a nation whose story is worth celebrating, whose history is worth cherishing, and whose future is worth building.
 
 When we hold the National Day Parade at the Padang, or at the Float@Marina Bay, the audience can see the Marina Bay skyline in the background. Marina Bay used to be open sea, but we reclaimed the land around it, turned the ocean into a reservoir, and progressively built on the new land, to create an outstanding and vibrant downtown. Looking out across the Bay, you can immediately see how far Singapore has come, and imagine the possibility and promise that Singapore holds.
@@ -102,9 +102,8 @@ This National Day, as we celebrate across the island, we will be saying the Pled
 
 We have dreams to realise, and goals to reach for. Let us show the world that whatever the challenges, Singaporeans will stay united, and prevail once more.
 
-I wish everyone a very happy National Day! The flag is CTFSG{mY_fEll0W_s1Ngap0r3aNs}
-`
-
+I wish everyone a very happy National Day! The flag is CTFSG{mY_fEll0W_s1Ngap0r3aNs}.
+```
 ### Part VI: Final thoughts
 It was really a great challenge for beginners like me. Thank you for reading this write-up.<br>
 If you have any questions about this challenge, please feel free to contact me while GitHub/discord(226914011#2099)
