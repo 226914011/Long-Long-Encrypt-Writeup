@@ -1,5 +1,5 @@
 # Long Long Encrypt
-An simple RSA-like encryption.<br>
+An simple RSA encryption.<br>
 Writeup By [26914011(Nori_egg)](https://github.com/226914011).
 
 ## Description
