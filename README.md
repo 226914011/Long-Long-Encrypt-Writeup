@@ -54,7 +54,7 @@ def encrypt():
 if __name__ == '__main__':
     encrypt()
 ```
-From the script above, few infomation is given.<br>
+From the script above, few infomation is given.
 1. The encrypt function will check if p and q are primes<br>
 2. `n` is equal to `p` to the power of `q`<br>
 3. `e` is equal to `1000000000000000003`<br>
