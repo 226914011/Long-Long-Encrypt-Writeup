@@ -13,7 +13,7 @@ As I'm a newbie to Crypto, please dun be rude to me if I mess up sth.
 ### Part I: Is it RSA?
 As we can get n, e, c from the txt.enc file, I guess it's an RSA-like encryption method.<br>
 And the encryption is here:<br>
-`
+```python
 def is_prime(n):
     # Implement some prime checking function here
     return True  # Placeholder
@@ -53,7 +53,7 @@ def encrypt():
 
 if __name__ == '__main__':
     encrypt()
-`
+```
 From the script above, few infomation is given.<br>
 1. The encrypt function will check if p and q are primes<br>
 2. `n` is equal to `p` to the power of `q`<br>
