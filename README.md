@@ -11,8 +11,8 @@ Team website: [Black Bauhinia](https://b6a.black)
 ## Solution
 As I'm a newbie to Crypto, please dun be rude to me if I mess up sth.
 
-### Part I: Is it RSA?
-As we can get n, e, c from the txt.enc file, I guess it's an RSA-like encryption method.<br>
+### Part I: Is it [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))?
+As we can get n, e, c from the txt.enc file, I guess it's an [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))-like encryption method.<br>
 And the encryption is here:<br>
 ```python
 def is_prime(n):
