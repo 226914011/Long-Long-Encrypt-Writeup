@@ -64,7 +64,7 @@ From the script above, few pieces of information are given.
 Okay, now I can decrypt it back to plaintext.
 
 ### Part II: Decryption
-To decrypt the chipertext(`ct` or `c` in this challenge) back to plaintext(`pt` or `m` in this challenge),<br>
+To decrypt the ciphertext(`ct` or `c` in this challenge) back to plaintext(`pt` or `m` in this challenge),<br>
 I need to use `pt = pow(ct,d,n)` to encrypt. As I already got `ct` and `n`, so I need to get `d`.<br>
 To get `d`, there is an easy way through `Crypto` module in python:
 ```python
