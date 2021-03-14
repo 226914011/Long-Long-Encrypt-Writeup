@@ -94,6 +94,7 @@ phi = p**(q-1) * (p-1)
 #### Full script : [RSA.py](https://github.com/226914011/Long-Long-Encrypt-Writeup/blob/main/RSA.py)
 
 ### Part III: Wait few hours to get the flag
+Flag:CTFSG{mY_fEll0W_s1Ngap0r3aNs}
 ```
 Every National Day, we remind ourselves that Singapore is a nation whose story is worth celebrating, whose history is worth cherishing, and whose future is worth building.
 
