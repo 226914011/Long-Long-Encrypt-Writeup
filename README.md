@@ -73,6 +73,8 @@ d = inverse(e, phi)
 Now I got another problem. I dun have `φ(n)`(phi).<br>
 There are two ways, one easy and no-brainer, one using Math to solve.<br>
 
+---
+
 #### Easy way: [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM)
 This [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM) is my favourt site for solving RSA cuz it will automaticly calculate `p`,`q`and`φ(n)`(Euler's totient) for me.
 Now I have all I need. Easy peasy lemon squeezy.<br>
@@ -82,9 +84,11 @@ As n is p to the power of q instead of p*q, that means I have to get p and q fir
 [Euler's product formula](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Euler%27s_product_formula) to get '''φ(n)'''.<br>
 I need to factorize n first, and get `p = 28375637489003756813`&`q = 1709`.<br>
 Then, we know `φ(n) = φ(p^q) = p^(q-1)*(p-1)`, so we can get φ(n) by script:
-`
+```python
 phi = p**(q-1) * (p-1)
-`
+```
+
+---
 
 #### Full script : [RSA.py](https://github.com/226914011/Long-Long-Encrypt-Writeup/blob/main/RSA.py)
 
