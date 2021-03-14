@@ -109,5 +109,5 @@ We have dreams to realise, and goals to reach for. Let us show the world that wh
 I wish everyone a very happy National Day! The flag is CTFSG{mY_fEll0W_s1Ngap0r3aNs}.
 ```
 ### Part VI: Final thoughts
-It was really a great challenge for beginners like me. Thank you for reading this write-up.<br>
+Thank you for reading this write-up. It was really a great challenge for beginners like me. <br>
 If you have any questions about this challenge, please feel free to contact me via Github Issues / Discord(226914011#2099)
