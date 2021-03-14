@@ -58,7 +58,8 @@ From the script above, few infomation is given.
 1. The encrypt function will check if p and q are primes<br>
 2. `n` is equal to `p` to the power of `q`<br>
 3. `e` is equal to `1000000000000000003`<br>
-4. chipertext is using classic RSA encrpytion `c = pow(m, e, n)`<br>
+4. Chipertext is using classic RSA encrpytion `c = pow(m, e, n)`<br>
+
 Okay, now I can decrypt it back to plaintext.
 
 ### Part II: Decryption
