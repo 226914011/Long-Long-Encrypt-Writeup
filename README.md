@@ -63,13 +63,13 @@ From the script above, few infomation is given.
 Okay, now I can decrypt it back to plaintext.
 
 ### Part II: Decryption
-To decrypt the chipertext(`ct` or `c` in this challenge) back to plaintext(`pt` or `m` in this challenge), 
+To decrypt the chipertext(`ct` or `c` in this challenge) back to plaintext(`pt` or `m` in this challenge),<br>
 I need to use `pt = pow(ct,d,n)` to encrypt. As I already got `ct` and `n`, so I need to get `d`.<br>
 To get `d`, there is a easy way though `Crypto` module in python:
-`
+```python
 from Crypto.Util.number import inverse,long_to_bytes
 d = inverse(e, phi)
-`
+```
 Now I got another problem. I dun have `φ(n)`(phi).<br>
 There are two ways, one easy and no-brainer, one using Math to solve.<br>
 
@@ -79,21 +79,21 @@ There are two ways, one easy and no-brainer, one using Math to solve.<br>
 This [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM) is my favourt site for solving RSA cuz it will automaticly calculate `p`,`q`and`φ(n)`(Euler's totient) for me.
 Now I have all I need. Easy peasy lemon squeezy.<br>
 
+---
+
 #### Math way: [Euler's product formula](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Euler%27s_product_formula)
-As n is p to the power of q instead of p*q, that means I have to get p and q first and use 
+As n is p to the power of q instead of p*q, that means I have to get `p` and `q` first and use 
 [Euler's product formula](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Euler%27s_product_formula) to get '''φ(n)'''.<br>
 I need to factorize n first, and get `p = 28375637489003756813`&`q = 1709`.<br>
 Then, we know `φ(n) = φ(p^q) = p^(q-1)*(p-1)`, so we can get φ(n) by script:
 ```python
 phi = p**(q-1) * (p-1)
 ```
-
 ---
 
 #### Full script : [RSA.py](https://github.com/226914011/Long-Long-Encrypt-Writeup/blob/main/RSA.py)
 
 ### Part III: Wait few hours to get the flag
-Here:
 ```
 Every National Day, we remind ourselves that Singapore is a nation whose story is worth celebrating, whose history is worth cherishing, and whose future is worth building.
 
