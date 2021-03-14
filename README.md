@@ -76,7 +76,7 @@ There are two ways, one easy and no-brainer, one using Math to solve.<br>
 ---
 
 #### Easy way: [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM)
-This [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM) is my favourt site for solving RSA cuz it will automaticly calculate `p`,`q`and`φ(n)`(Euler's totient) for me.
+This [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM) is my favorite site for solving RSA cuz it will automatically calculate `p`, `q` and `φ(n)`(Euler's totient) for me.
 Now I have all I need. Easy peasy lemon squeezy.<br>
 
 ---
