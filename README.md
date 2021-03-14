@@ -67,7 +67,7 @@ To decrypt the chipertext(`ct` or `c` in this challenge) back to plaintext(`pt` 
 I need to use `pt = pow(ct,d,n)` to encrypt. As I already got `ct` and `n`, so I need to get `d`.<br>
 To get `d`, there is an easy way through `Crypto` module in python:
 ```python
-from Crypto.Util.number import inverse,long_to_bytes
+from Crypto.Util.number import inverse
 d = inverse(e, phi)
 ```
 Now I got another problem. I dun have `φ(n)`(phi).<br>
