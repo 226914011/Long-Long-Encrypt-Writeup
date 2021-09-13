@@ -5,8 +5,8 @@ Team website: [Black Bauhinia](https://b6a.black)
 
 ## Description
 ![img](https://i.imgur.com/GRGZewq.png)<br>
-**Files**: [encrypt.py](https://api.ctf.sg/file?id=ckm3krkb80gsw0880y0z22pyf&name=encrypt.py)<br>
-**Files**: [txt.enc](https://api.ctf.sg/file?id=ckm3krkeq0gtf0880li3jzboy&name=txt.enc)
+**Files**: [encrypt.py](https://api.ctf.sg/file?id=ckm3krkb80gsw0880y0z22pyf&name=encrypt.py) (Update:Invalid)<br>
+**Files**: [txt.enc](https://api.ctf.sg/file?id=ckm3krkeq0gtf0880li3jzboy&name=txt.enc) (Update:Invalid)
 
 ## Solution
 As I'm a newbie to Crypto, please dun be rude to me if I mess up sth.
